@@ -22,29 +22,32 @@ h1 {
   font-weight: normal;
   font-style: normal;
 }
-
       .container {
   display: flex;
+  justify-content: center;
+  gap: 20px; /* Space between boxes */
+  align-items: center;
+  min-height: 100vh; /* Centers vertically on page */
+}
+.box {
+  width: 100px;
+  height: 100px;
   background-color: #FFFFFF;
 }
 
-.container div {
-  background-color: #000000;
-  margin: 5px;
-  padding: 50px;
-  font-size: 24px;
-  font-family: 'IBM';
-}
 
     </style>
 <p>gimpskin </p>
 <p>---------------</p>
 
-    <div class="container">
-  <div>who am i</div>
-  <div>what have i done</div>
-  <div>others</div>  
+<div class="container">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
 </div>
+
+
+
     
   </body>
 
